@@ -25,7 +25,7 @@ version.core = [version.major, version.minor, version.patch].join('.');
 
 //Output ADO logging commands.
 for (const property in version){
-  console.log(`###vso[task.setvariable variable=semver_${property}]${(version[property] === undefined) ?  false : version[property]}`);
+  console.log(`###vso[task.setvariable variable=semver_${property}]${version[property]}`);
 }
 
 
