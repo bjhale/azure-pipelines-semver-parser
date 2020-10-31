@@ -1,5 +1,5 @@
 {
-  "name": "ado-semver",
+  "name": "@bjhale/ado-semver",
   "version": "1.0.0",
   "description": "A simple node script to convert version strings into usable pipeline variables.",
   "main": "cli.js",
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/bjhale/azure-pipelines-semver-parser.git"
   },
-  "author": "Billy Hale",
+  "author": "Billy Hale <bjhale@gmail.com>",
   "license": "ISC",
   "bin": {
     "ado-semver": "./cli.js"
