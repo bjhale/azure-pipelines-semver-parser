@@ -1,6 +1,6 @@
 {
   "name": "@bjhale/ado-semver",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple node script to convert version strings into usable pipeline variables.",
   "main": "cli.js",
   "scripts": {
